@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="main.css" />
+    <script type="text/javascript" src="main.js"></script>
+   
+</head>
+<body>
+    <form id="new-task-form" name="myForm">
+        <header>
+            <h1>TO-DO Application 2023</h1>
+            <p>Designed by- Abir Pal (10/08/2023)</p>
+            <p><strong>You Can Add Your Daily Tasks</strong></p>
+
+                 <!--<table>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><strong>Task Title :</strong>
+                            <input type="text" id="new-task-input" placeholder="Enter your task" name="task"/><br> </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><strong>Task Description :</strong>
+                            <input type="text" id="new-task-description" placeholder="Enter your task briefly" name="description"/></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>-->
+                <hr>
+            <div>
+                <br><label><strong>Task Title :</strong></label>
+                <input type="text" id="new-task-input" placeholder="Enter your task" name="task"/><br>
+                <br><label><strong>Task Description :</strong></label>
+                <input type="text" id="new-task-description" placeholder="Enter your task briefly" name="description"/>
+            </div>
+
+                <div class="action">
+                   <br><button id="add" button style='margin-right:50px' class="add" onclick="validateForm();return false">Add Task</button>
+                    <button class="cler" button style='margin-right:50px'>Clear All</button>
+                </div>
+        </header>
+
+            <section class="task-list">
+                <h2><u>All Saved Tasks</u></h2><br>
+
+                <div class="row">
+                      <table id="tableContainer">
+                        <tr>
+                            <td class="column"><h2>Sl.No.</h2></td>
+                            <td class="column"><h2>Task Title</h2></td>
+                            <td class="column"><h2>Task Description</h2></td>
+                            <td class="column"><h2>Completed</h2></td>
+                            <td class="column"><h2>Delete</h2></td>
+                        </tr>
+                      </table>
+                  </div>
+                 
+            </section>
+        <label id ="previewTask" name ="pTask" type="label" ></label>
+        <label id ="previewDescription" name ="pDescription" type="label" ></label>
+    </form>
+</body>
+</html>

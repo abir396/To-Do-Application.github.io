@@ -1,0 +1,64 @@
+
+*
+
+
+h1 {
+    font-size: 40px;
+    font-style: Georgia;
+    text-align: center;
+  }
+
+h2 {
+    text-align: center;
+
+  }
+
+  p {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+  }
+
+  td {
+    text-align: center;
+
+  }
+
+  div {
+    text-align: center;
+    }
+    
+    input[type=text] {
+        width: 50%;
+        text-align: center;
+        padding: 12px 20px;
+        margin: 8px 0;
+        text-align: center;
+        box-sizing: border-box;
+      }
+
+  .table {
+    width: 100%;
+    text-align: center;
+  }
+
+  .from{
+    width: 300px;
+    margin: 2% 40%;
+    background-color: aqua;
+  }
+
+  .column {
+    width: 5%;
+    height: 10px;
+    padding: 5px;
+    color: rgb(252, 250, 250);
+    background: #3e4b68;
+  }
+
+  .colitem {
+    margin-top: 20px;
+    float: left;
+    width: 5%;
+    padding: 10px;
+  }

@@ -6,6 +6,9 @@
 #map{
     width: 1200px;
     height: 400px;
+    margin: auto;
+    border: 3px solid #73AD21;
+    padding: 10px;
     
 }
 

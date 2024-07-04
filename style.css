@@ -1,11 +1,13 @@
-*
+*{
+    padding: 0;
+    margin: 0;
+}
 
 #map{
-    width: auto;
+    width: 2000px;
     height: 400px;
-    margin: auto;
     border: 3px solid #73AD21;
-   margin-top: 30px;
+   
     
 }
 

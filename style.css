@@ -6,7 +6,7 @@
     textalign: center;
 }
 #map{
-    width: 500px;
+    width: auto;
     height: 400px;
     border: 3px solid #73AD21;
     margin-top: 100px;
